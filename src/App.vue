@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import NavigationBar from "@/components/NavigationBar.vue";
+import NavigationBar from "@/components/NavigationBar.vue"
 </script>
 
 <template>
@@ -8,7 +8,4 @@ import NavigationBar from "@/components/NavigationBar.vue";
     <RouterView />
 </template>
 
-<style scoped>
-    background-color: black;
-
-</style>
+<style scoped></style>
