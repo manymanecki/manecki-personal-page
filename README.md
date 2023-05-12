@@ -31,6 +31,7 @@ This is an open source project for a personal portfolio website. Main goal of th
 - Animated modal with extended description
 
 ### Low priority
+- Dark mode
 - Easy customization
 - Proper documentation
 - Bug squashing
