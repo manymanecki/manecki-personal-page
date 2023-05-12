@@ -1,1 +1,0 @@
-import{o as a,c as t,a as e,F as o,b as s,N as r,d as c}from"./index-6c465afa.js";const n=s("p",{class:"text-center text-5xl min-h-c"},"404",-1),d={__name:"NotFound",setup(_){return(l,m)=>(a(),t(o,null,[e(r),n,e(c)],64))}};export{d as default};
