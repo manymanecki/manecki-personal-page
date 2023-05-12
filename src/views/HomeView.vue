@@ -78,11 +78,6 @@ import FooterBar from "@/components/FooterBar.vue";
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h2>
-                    <p class="">
-                        In ut erat elit. Etiam et malesuada risus. Curabitur iaculis nunc
-                        egestas, interdum erat id, lobortis velit. Quisque interdum tortor at
-                        metus laoreet auctor.
-                    </p>
                 </div>
             </div>
             <div class="card h-96 bg-primary/10">
@@ -110,9 +105,9 @@ import FooterBar from "@/components/FooterBar.vue";
 .card-about {
     background: linear-gradient(
         270deg,
-        rgba(249, 246, 255, 0.47) 0%,
-        rgb(199, 199, 213) 45%,
-        rgb(189, 216, 239) 100%
+        rgba(255, 255, 255, 0.47) 5%,
+        rgb(199, 199, 213) 50%,
+        rgb(122, 176, 220) 100%
     );
 }
 </style>
