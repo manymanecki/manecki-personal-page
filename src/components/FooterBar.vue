@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <footer class="footer p-10 bg-neutral text-neutral-content rounded-xl">
+    <footer class="footer p-10 bg-neutral text-neutral-content">
         <div>
             <svg
                 width="50"

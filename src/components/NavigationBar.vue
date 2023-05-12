@@ -97,5 +97,6 @@
         padding: 0 !important;
         margin-bottom: 10px;
         min-height: 2px !important;
+        background: hsl(var(--b1)) 100%
     }
 </style>

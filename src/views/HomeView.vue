@@ -47,7 +47,7 @@ import FooterBar from "@/components/FooterBar.vue";
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="card h-96 bg-primary md:w-3/5">
+            <div class="card h-96 bg-primary/60 md:w-3/5">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -59,7 +59,7 @@ import FooterBar from "@/components/FooterBar.vue";
                     </p>
                 </div>
             </div>
-            <div class="card h-96 bg-primary/50 md:w-2/5">
+            <div class="card h-96 bg-primary/40 md:w-2/5">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -73,7 +73,7 @@ import FooterBar from "@/components/FooterBar.vue";
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="card h-96 bg-primary/25">
+            <div class="card h-96 bg-primary/20">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -100,14 +100,10 @@ import FooterBar from "@/components/FooterBar.vue";
 <style scoped>
 .image-full:before {
     background-color: rgba(0, 0, 0, 0) !important;
+    border: hsl(var(--p)) solid 5px;
 }
 
 .card-about {
-    background: linear-gradient(
-        270deg,
-        rgba(255, 255, 255, 0.47) 5%,
-        rgb(199, 199, 213) 50%,
-        rgb(122, 176, 220) 100%
-    );
+    background: hsl(var(--p));
 }
 </style>
