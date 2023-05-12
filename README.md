@@ -1,9 +1,7 @@
 # Personal Portfolio Website
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/<your-github-username>/<your-repository>/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/manymanecki/manecki-personal-page/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/manymanecki/manecki-personal-page.svg?style=for-the-badge)](https://github.com/manymanecki/manecki-personal-page/issues)
-
-[![GitHub](https://img.shields.io/badge/GitHub-manymanecki-blue?style=for-the-badge&logo=github)](https://github.com/manymanecki)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jakub_Pawlowski-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jakubpawlowski00)
 
