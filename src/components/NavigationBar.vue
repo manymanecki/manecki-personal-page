@@ -31,7 +31,9 @@
             </div>
         </div>
         <div class="navbar-center">
-            <h1 class="btn btn-ghost normal-case text-xl navbar-title">manecki</h1>
+            <router-link to="/">
+                <h1 class="btn btn-ghost normal-case text-xl navbar-title">manecki</h1>
+            </router-link>
         </div>
         <div class="navbar-end">
             <button class="btn btn-ghost">
