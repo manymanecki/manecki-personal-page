@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 
+### First public version is now live:
+https://manymanecki.github.io/manecki-personal-page/
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/manymanecki/manecki-personal-page/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/manymanecki/manecki-personal-page.svg?style=for-the-badge)](https://github.com/manymanecki/manecki-personal-page/issues)
 
