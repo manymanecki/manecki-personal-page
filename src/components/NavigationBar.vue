@@ -3,7 +3,7 @@
 
 <template>
     <!--TODO change navbar color-->
-    <div class="sticky navbar bg-opacity-100 rounded-xl">
+    <div class="md:sticky top-0 z-50 bg-white navbar">
         <div class="navbar-start">
             <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost">
@@ -93,6 +93,7 @@
 
     .navbar {
         padding: 0 !important;
+        margin-bottom: 10px;
         min-height: 2px !important;
     }
 </style>

@@ -6,10 +6,10 @@ import NavigationBar from "@/components/NavigationBar.vue"
     <NavigationBar/>
     <div class="grid gap-4 grid-cols-1">
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="flex-none w-3/8 card card-image image-full">
+            <div class="flex-none w-3/8 card card-image image-full md:w-96">
                 <figure>
                     <img
-                        class="object-fill h-96 w-96"
+                        class="object-fill"
                         src="/profilepicture.jpg"
                         alt="Profile picture"
                     />
@@ -27,13 +27,13 @@ import NavigationBar from "@/components/NavigationBar.vue"
                     </p>
                     <div class="card-actions">
                         <a target="_blank" href="https://www.linkedin.com/in/jakubpawlowski00/">
-                            <button class="btn gap-2">
+                            <button class="btn md:gap-2">
                                 <font-awesome-icon icon="fa-brands fa-linkedin" size="xl" />
                                 Contact me
                             </button>
                         </a>
                         <a target="_blank" href="https://www.github.com/manymanecki">
-                            <button class="btn btn-outline gap-2">
+                            <button class="btn btn-outline md:gap-2">
                                 <font-awesome-icon
                                     icon="fa-brands fa-square-github"
                                     size="xl"
@@ -46,7 +46,7 @@ import NavigationBar from "@/components/NavigationBar.vue"
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="card bg-primary-content/50 h-96">
+            <div class="card h-96 bg-primary md:w-3/5">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -58,7 +58,7 @@ import NavigationBar from "@/components/NavigationBar.vue"
                     </p>
                 </div>
             </div>
-            <div class="card bg-primary h-96">
+            <div class="card h-96 bg-primary/50 md:w-2/5">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -72,7 +72,7 @@ import NavigationBar from "@/components/NavigationBar.vue"
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="card h-96">
+            <div class="card h-96 bg-primary/25">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -84,7 +84,7 @@ import NavigationBar from "@/components/NavigationBar.vue"
                     </p>
                 </div>
             </div>
-            <div class="card h-96">
+            <div class="card h-96 bg-primary/10">
                 <div class="card-body">
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
