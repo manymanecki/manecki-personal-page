@@ -1,5 +1,6 @@
 <script setup>
 import NavigationBar from "@/components/NavigationBar.vue"
+import FooterBar from "@/components/FooterBar.vue";
 </script>
 
 <template>
@@ -98,6 +99,7 @@ import NavigationBar from "@/components/NavigationBar.vue"
             </div>
         </div>
     </div>
+    <FooterBar/>
 </template>
 
 <style scoped>
