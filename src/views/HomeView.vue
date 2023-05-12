@@ -3,9 +3,9 @@
 
 <template>
     <div class="container mx-auto">
-        <div class="flex space-x-4">
-            <div class="flex-auto w-1/4">
-                <div class="card card-image h-96 image-full">
+        <div class="grid gap-4 grid-cols-1">
+            <div class="flex gap-4">
+                <div class="flex-auto w-1/5 card card-image h-96 image-full">
                     <figure>
                         <img
                             class="object-center"
@@ -14,26 +14,85 @@
                         />
                     </figure>
                 </div>
-            </div>
-            <div class="flex-auto w-3/4">
-                <div class="card card-about h-96">
+                <div class="flex-auto w-4/5 card card-about h-96">
                     <div class="card-body">
-                        <h2 class="card-title text-5xl">Hey, name's Jakub and I'm a Warsaw based Fullstack Developer.</h2>
-                        <p class="">Currently studying at Polish-Japanese Academy of Information Technology, my wide range of skills in all areas of software development are perfect for the needs of your company!</p>
+                        <h2 class="card-title text-5xl">
+                            Hey, name's Jakub and I'm a Warsaw based Fullstack Developer.
+                        </h2>
+                        <p class="">
+                            Currently studying at Polish-Japanese Academy of Information Technology,
+                            my wide range of skills in all areas of software development are perfect
+                            for the needs of your company!
+                        </p>
                         <div class="card-actions">
                             <a target="_blank" href="https://www.linkedin.com/in/jakubpawlowski00/">
                                 <button class="btn gap-2">
-                                    <font-awesome-icon icon="fa-brands fa-linkedin" size="xl"/>
+                                    <font-awesome-icon icon="fa-brands fa-linkedin" size="xl" />
                                     Contact me
                                 </button>
                             </a>
                             <a target="_blank" href="https://www.github.com/manymanecki">
                                 <button class="btn btn-outline gap-2">
-                                    <font-awesome-icon icon="fa-brands fa-square-github" size="xl"/>
+                                    <font-awesome-icon
+                                        icon="fa-brands fa-square-github"
+                                        size="xl"
+                                    />
                                     GitHub
                                 </button>
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-auto">
+                <div class="card card-about h-96">
+                    <div class="card-body">
+                        <h2 class="card-title text-5xl">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h2>
+                        <p class="">
+                            In ut erat elit. Etiam et malesuada risus. Curabitur iaculis nunc
+                            egestas, interdum erat id, lobortis velit. Quisque interdum tortor at
+                            metus laoreet auctor.
+                        </p>
+                    </div>
+                </div>
+                <div class="card card-about h-96">
+                    <div class="card-body">
+                        <h2 class="card-title text-5xl">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h2>
+                        <p class="">
+                            In ut erat elit. Etiam et malesuada risus. Curabitur iaculis nunc
+                            egestas, interdum erat id, lobortis velit. Quisque interdum tortor at
+                            metus laoreet auctor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-auto">
+                <div class="card card-about h-96">
+                    <div class="card-body">
+                        <h2 class="card-title text-5xl">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h2>
+                        <p class="">
+                            In ut erat elit. Etiam et malesuada risus. Curabitur iaculis nunc
+                            egestas, interdum erat id, lobortis velit. Quisque interdum tortor at
+                            metus laoreet auctor.
+                        </p>
+                    </div>
+                </div>
+                <div class="card card-about h-96">
+                    <div class="card-body">
+                        <h2 class="card-title text-5xl">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </h2>
+                        <p class="">
+                            In ut erat elit. Etiam et malesuada risus. Curabitur iaculis nunc
+                            egestas, interdum erat id, lobortis velit. Quisque interdum tortor at
+                            metus laoreet auctor.
+                        </p>
                     </div>
                 </div>
             </div>
