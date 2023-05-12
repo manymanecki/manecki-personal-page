@@ -2,9 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer base {
     h2 {
         @apply font-medium text-2xl lg:text-4xl;
+    }
+}
+
+@layer components {
+    .card {
+        @apply opacity-0 shadow-xl delay-500 duration-1000 opacity-100;
+    }
+
+    .navbar {
+        opacity: 0;
+        @apply transition duration-1000 opacity-100
+    }
+    
+    @keyframes opacity {
+        
     }
 }
 
