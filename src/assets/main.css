@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@media only screen and (min-width: 768px) {
-    body {
-        padding-left: calc((80vw - 768px) / 2);
-        padding-right: calc((80vw - 768px) / 2);
+@layer base {
+    h2 {
+        @apply font-medium text-2xl lg:text-4xl;
     }
 }
 
@@ -13,4 +12,18 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     user-select: none;
+}
+
+@media screen(md) {
+    body {
+        padding-left: calc((100vw - 748px) / 2);
+        padding-right: calc((100vw - 748px) / 2);
+    }
+}
+
+@media screen(lg) {
+    body {
+        padding-left: calc((100vw - 1004px) / 2);
+        padding-right: calc((100vw - 1004px) / 2);
+    }
 }

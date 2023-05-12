@@ -6,10 +6,10 @@ import NavigationBar from "@/components/NavigationBar.vue"
     <NavigationBar/>
     <div class="grid gap-4 grid-cols-1">
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="flex-none w-3/8 card card-image h-96 image-full">
+            <div class="flex-none w-3/8 card card-image image-full">
                 <figure>
                     <img
-                        class="object-fill object-center"
+                        class="object-fill h-96 w-96"
                         src="/profilepicture.jpg"
                         alt="Profile picture"
                     />
@@ -17,10 +17,10 @@ import NavigationBar from "@/components/NavigationBar.vue"
             </div>
             <div class="flex-auto w-5/8 card card-about h-96">
                 <div class="card-body">
-                    <h2 class="card-title text-5xl">
+                    <h2>
                         Hey, name's Jakub and I'm a Warsaw based Fullstack Developer.
                     </h2>
-                    <p class="">
+                    <p>
                         Currently studying at Polish-Japanese Academy of Information Technology,
                         my wide range of skills in all areas of software development is perfect
                         for the needs of your company!
@@ -46,9 +46,9 @@ import NavigationBar from "@/components/NavigationBar.vue"
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="card card-about h-96">
+            <div class="card bg-primary-content/50 h-96">
                 <div class="card-body">
-                    <h2 class="card-title text-5xl">
+                    <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h2>
                     <p class="">
@@ -58,9 +58,9 @@ import NavigationBar from "@/components/NavigationBar.vue"
                     </p>
                 </div>
             </div>
-            <div class="card card-about h-96">
+            <div class="card bg-primary h-96">
                 <div class="card-body">
-                    <h2 class="card-title text-5xl">
+                    <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h2>
                     <p class="">
@@ -72,9 +72,9 @@ import NavigationBar from "@/components/NavigationBar.vue"
             </div>
         </div>
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="card card-about h-96">
+            <div class="card h-96">
                 <div class="card-body">
-                    <h2 class="card-title text-5xl">
+                    <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h2>
                     <p class="">
@@ -84,9 +84,9 @@ import NavigationBar from "@/components/NavigationBar.vue"
                     </p>
                 </div>
             </div>
-            <div class="card card-about h-96">
+            <div class="card h-96">
                 <div class="card-body">
-                    <h2 class="card-title text-5xl">
+                    <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </h2>
                     <p class="">
