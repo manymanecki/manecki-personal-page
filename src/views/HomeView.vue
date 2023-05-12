@@ -21,9 +21,18 @@
                         <h2 class="card-title text-5xl">Hey, name's Jakub and I'm a Warsaw based Fullstack Developer.</h2>
                         <p class="">Currently studying at Polish-Japanese Academy of Information Technology, my wide range of skills in all areas of software development are perfect for the needs of your company!</p>
                         <div class="card-actions">
-                            <button class="btn">Contact me</button>
-                            <button class="btn btn-outline">Linked</button>
-                            <button class="btn btn-outline">GitHub</button>
+                            <a target="_blank" href="https://www.linkedin.com/in/jakubpawlowski00/">
+                                <button class="btn gap-2">
+                                    <font-awesome-icon icon="fa-brands fa-linkedin" size="xl"/>
+                                    Contact me
+                                </button>
+                            </a>
+                            <a target="_blank" href="https://www.github.com/manymanecki">
+                                <button class="btn btn-outline gap-2">
+                                    <font-awesome-icon icon="fa-brands fa-square-github" size="xl"/>
+                                    GitHub
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
