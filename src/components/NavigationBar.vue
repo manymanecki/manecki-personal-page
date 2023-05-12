@@ -90,7 +90,9 @@
     .navbar-title {
         font-weight: normal;
     }
+
     .navbar {
-        margin-bottom: 10px;
+        padding: 0 !important;
+        min-height: 2px !important;
     }
 </style>

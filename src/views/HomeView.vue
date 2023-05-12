@@ -1,26 +1,28 @@
 <script setup>
+import NavigationBar from "@/components/NavigationBar.vue"
 </script>
 
 <template>
+    <NavigationBar/>
     <div class="grid gap-4 grid-cols-1">
-        <div class="flex gap-4">
-            <div class="flex-auto w-1/5 card card-image h-96 image-full">
+        <div class="flex flex-col md:flex-row gap-4">
+            <div class="flex-none w-3/8 card card-image h-96 image-full">
                 <figure>
                     <img
-                        class="object-center"
+                        class="object-fill object-center"
                         src="/profilepicture.jpg"
                         alt="Profile picture"
                     />
                 </figure>
             </div>
-            <div class="flex-auto w-4/5 card card-about h-96">
+            <div class="flex-auto w-5/8 card card-about h-96">
                 <div class="card-body">
                     <h2 class="card-title text-5xl">
                         Hey, name's Jakub and I'm a Warsaw based Fullstack Developer.
                     </h2>
                     <p class="">
                         Currently studying at Polish-Japanese Academy of Information Technology,
-                        my wide range of skills in all areas of software development are perfect
+                        my wide range of skills in all areas of software development is perfect
                         for the needs of your company!
                     </p>
                     <div class="card-actions">
@@ -43,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-auto">
+        <div class="flex flex-col md:flex-row gap-4">
             <div class="card card-about h-96">
                 <div class="card-body">
                     <h2 class="card-title text-5xl">
@@ -69,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-auto">
+        <div class="flex flex-col md:flex-row gap-4">
             <div class="card card-about h-96">
                 <div class="card-body">
                     <h2 class="card-title text-5xl">
